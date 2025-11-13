@@ -5,6 +5,8 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+run-name: Deploy IEDC site to Pages
+
 permissions:
   contents: read
   pages: write
